@@ -1,0 +1,1 @@
+curl --head -sf http://localhost/status/$pool/all -o /dev/null || pkill -f "php-fpm: pool $pool"
